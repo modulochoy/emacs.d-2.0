@@ -1,0 +1,128 @@
+python -c "import api_interface; api_interface.set_apk_state_status('qa','809268ae-cad4-4040-b318-e4548058b458','auto_qa','success')"
+python -c "import api_interface; api_interface.set_apk_state_status('qa','809268ae-cad4-4040-b318-e4548058b458','auto_qa','fail')"
+python -c "import api_interface; api_interface.set_apk_state_status('qa','809268ae-cad4-4040-b318-e4548058b458','auto_qa','success')"
+python -c "import api_interface; api_interface.set_apk_state_status('qa','809268ae-cad4-4040-b318-e4548058b458','auto_qa','fail')"
+python -c "import api_interface; api_interface.set_apk_state_status('qa','809268ae-cad4-4040-b318-e4548058b458','auto_qa','success')"
+python -c "import api_interface; api_interface.set_apk_state_status('qa','809268ae-cad4-4040-b318-e4548058b458','auto_qa','success')"
+python -c "import api_interface; api_interface.set_apk_state_status('qa','809268ae-cad4-4040-b318-e4548058b458','auto_qa','fail')"
+python -c "import api_interface; api_interface.set_apk_state_status('qa','809268ae-cad4-4040-b318-e4548058b458','auto_qa','success')"
+python -c "import api_interface; api_interface.set_apk_state_status('qa','809268ae-cad4-4040-b318-e4548058b458','auto_qa','fail')"
+python -c "import api_interface; api_interface.set_apk_state_status('qa','809268ae-cad4-4040-b318-e4548058b458','auto_qa','success')"
+python -c "import api_interface; api_interface.set_apk_state_status('qa','809268ae-cad4-4040-b318-e4548058b458','auto_qa','success')"
+python -c "import api_interface; api_interface.set_apk_state_status('qa','809268ae-cad4-4040-b318-e4548058b458','auto_qa','success')"
+python -c "import api_interface; api_interface.set_apk_state_status('qa','809268ae-cad4-4040-b318-e4548058b458','auto_qa','fail')"
+python -c "import api_interface; api_interface.set_apk_state_status('qa','809268ae-cad4-4040-b318-e4548058b458','auto_qa','success')"
+python -c "import api_interface; api_interface.set_apk_state_status('qa','809268ae-cad4-4040-b318-e4548058b458','auto_qa','fail')"
+python -c "import api_interface; api_interface.set_apk_state_status('qa','809268ae-cad4-4040-b318-e4548058b458','auto_qa','fail')"
+python -c "import api_interface; api_interface.set_apk_state_status('qa','809268ae-cad4-4040-b318-e4548058b458','auto_qa','fail')"
+python -c "import api_interface; api_interface.set_apk_state_status('qa','809268ae-cad4-4040-b318-e4548058b458','auto_qa','fail')"
+python -c "import api_interface; api_interface.set_apk_state_status('qa','809268ae-cad4-4040-b318-e4548058b458','auto_qa','success')"
+python -c "import api_interface; api_interface.set_apk_state_status('qa','809268ae-cad4-4040-b318-e4548058b458','auto_qa','fail')"
+python -c "import api_interface; api_interface.set_apk_state_status('qa','809268ae-cad4-4040-b318-e4548058b458','auto_qa','success')"
+python -c "import api_interface; api_interface.set_apk_state_status('qa','809268ae-cad4-4040-b318-e4548058b458','auto_qa','fail')"
+exit
+ls
+ls
+cd code/
+ls
+cd auto_qa/
+ls
+adb devices
+python -c "import auto_qa; auto_qa.run_auto_qa('qa','04181812',None,'signing','success',('auto_qa','success'),('auto_qa','fail'))"
+python -c "import auto_qa; auto_qa.wake_device('04181812')"
+python -c "import auto_qa; auto_qa.wake_device('04181812')"
+python -c "import auto_qa; auto_qa.wake_device('04181812')"
+adb devices
+adb devices
+adb devices
+adb devices
+adb devices
+python -c "import auto_qa; auto_qa.wake_device('de08a354')"
+adb shell
+adb devices
+python -c "import auto_qa; auto_qa.wake_device('a30f1720')"
+python -c "import auto_qa; auto_qa.wake_device('a30f1720')"
+python -c "import auto_qa; auto_qa.wake_device('a30f1720')"
+python -c "import auto_qa; auto_qa.wake_device('a30f1720')"
+exit
+z:
+cd ..
+ls
+cd Download/
+ls
+ls
+cp -r flashing/ c:/Users/dchoy/Documents/
+cp -r flashing/ c:
+c:
+ls
+pwd
+exit
+cd ..
+ls
+pwd
+mv flahing ../../phone_builds/
+mv flashing ../../phone_builds/
+ls
+ls
+cd ../../phone_builds/
+ls
+cd NAA_4_4/
+ls
+cd ..
+cd flashing/
+ls
+ls
+cd ..
+ls
+cd NAA_4_4/
+ls
+cd I9505_eng_NAA/
+ls
+cd ~/
+ls
+cd Documents/code/
+ls
+cd auto_qa/
+ls
+adb devices
+adb
+adb status
+ls
+adb devices
+python -c "import auto_qa; auto_qa.wake_device('04181812')"
+exit
+ls
+cd code/auto_qa/
+ls
+adb devi
+adb devices
+python -c "import auto_qa; auto_qa.wake_device('04181812')"
+python -c "import auto_qa; auto_qa.wake_device('04181812')"
+python -c "import auto_qa; auto_qa.run_auto_qa('qa','04181812',None,'auto_qa','in-progress',('auto_qa','success'),('auto_qa','fail')"
+python -c "import auto_qa; auto_qa.run_auto_qa('qa','04181812',None,'auto_qa','in-progress',('auto_qa','success'),('auto_qa','fail'))"
+python -c "import auto_qa; auto_qa.run_auto_qa('qa','04181812',None,'auto_qa','in-progress',('auto_qa','success'),('auto_qa','fail'))"
+ls
+cd ..
+ls
+cd ..
+ls
+cd code/
+ls
+cd auto_qa/
+ls
+python -c "import auto_qa; auto_qa.run_auto_qa('qa','a30f1720',None,'auto_qa','in-progress',('auto_qa','success'),('auto_qa','fail'))"
+python -c "import auto_qa; auto_qa.run_auto_qa('qa','a30f1720',None,'auto_qa','in-progress',('auto_qa','success'),('auto_qa','fail'))"
+python -c "import auto_qa; auto_qa.run_auto_qa('qa','a30f1720',None,'auto_qa','in-progress',('auto_qa','success'),('auto_qa','fail'))"
+adb devices
+python -c "import auto_qa; auto_qa.run_auto_qa('qa','04181812',None,'auto_qa','in-progress',('auto_qa','success'),('auto_qa','fail'))"
+exit
+git status
+git
+git clone --help
+ls
+cd .emacs.d/
+cd ..
+ls
+exit
+ls
+exit
