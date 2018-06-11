@@ -42,7 +42,8 @@ point."
 (setq web-mode-code-indent-offset 2) ; web-mode, js code in html file
 (setq css-indent-offset 2) ; css-mode
 
-(add-to-list 'auto-mode-alist '("\\.es6\\'" . js-mode))
+;;(add-to-list 'auto-mode-alist '("\\.es6\\'" . js-mode))
+(add-to-list 'auto-mode-alist '("components\\/.*\\.js\\'" . rjsx-mode))
 (add-to-list 'auto-mode-alist '("\\.json\\'" . json-mode))
 (add-to-list 'auto-mode-alist '("\\.org\\'" . org-mode)) ; not needed since Emacs 22.2
      (add-hook 'org-mode-hook 'turn-on-font-lock) ; not needed when global-font-lock-mode is on
@@ -54,11 +55,15 @@ point."
 			'((sequence "TODO(t)" "|" "DONE(d)")
 				(sequence "FIXME(f)" "|" "FIXED(x)")
 				(sequence "Q:(q)" "|" "A:(a)")
-				(sequence "BUT")
-				(sequence "OR")
 				(sequence "NOTE")
-				(sequence "CAUTION")
 				))
+
+(add-hook 'org-mode-hook
+          (lambda ()
+            (local-set-key (kbd "M-p") 'outline-up-heading)
+            (local-set-key (kbd "M-[") 'org-backward-heading-same-level)
+            (local-set-key (kbd "M-]") 'org-forward-heading-same-level)))
+
 
 (add-hook 'comint-mode-hook
  (lambda ()
@@ -114,6 +119,8 @@ point."
 (add-to-list 'auto-mode-alist '("\\.scss\\'" . scss-mode))
 
 (add-to-list 'auto-mode-alist '("\\.handlebars\\'" . html-mode))
+
+(add-to-list 'auto-mode-alist '("\\.hbs\\'" . html-mode))
 
 (autoload 'moz-minor-mode "moz" "Mozilla Minor and Inferior Mozilla Modes" t)
 
@@ -187,5 +194,5 @@ point."
 (set-frame-parameter (selected-frame) 'alpha '(85 80))
 (add-to-list 'default-frame-alist '(alpha 85 80))
 
-(global-set-key (kbd "M-<up>") (lambda () (interactive) (previous-line 6)))
-(global-set-key (kbd "M-<down>") (lambda () (interactive) (next-line 6)))
+(global-set-key (kbd "M-<up>") (lambda () (interactive) (previous-line 8)))
+(global-set-key (kbd "M-<down>") (lambda () (interactive) (next-line 8)))
